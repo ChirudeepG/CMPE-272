@@ -1,0 +1,13 @@
+properties([pipelineTriggers([githubPush()])])
+
+  node {
+      stage ('Checkout'){
+          //git branch: 'CMPE-272', url: 'https://github.com/ChirudeepG/CMPE-272.git'
+      }
+      stage ('Build'){
+          // steps
+      }
+      stage ('Test'){
+          // steps
+      }
+  }
